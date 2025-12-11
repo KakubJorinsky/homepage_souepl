@@ -3,17 +3,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SOUEPL</title>
+    <title>SOU Elektrotechnické a Energetické Plzeň | SOUePl</title>
+    <meta name="description" content="Střední odborné učiliště elektrotechnické Plzeň">
+    <link rel="stylesheet" href="/style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-    <header>
 
+    <nav id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <img src="sources/soue.png" alt="SOUEPL Plzeň">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Domů</a></li>
+                <li><a href="#obory">Obory</a></li>
+                <li><a href="#proč-my">Proč my</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+                <li><a href="https://www.bakalari.cz" target="_blank">Bakaláři</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home">
+        <div class="container hero-text">
+            <h1>Střední odborné učiliště<br>elektrotechnické Plzeň</h1>
+            <p>Moderní vzdělávání v elektrotechnice, automatizaci a IT s praxí u špičkových firem v Plzeňském kraji.</p>
+            <a href="#obory" class="btn">Zobrazit obory vzdělávání</a>
+        </div>
     </header>
-    <main>
+    <section id="obory" class="bg-light">
+        <div class="container">
+            <h2 class="section-title">Naše obory vzdělávání</h2>
+            <div class="obory-grid">
+                <div class="obor-card">
+                    <img src="images/elektrotechnika.jpg" alt="Elektrotechnika">
+                    <div class="obor-content">
+                        <h3>26-41-L/01 Mechanik elektrotechnik</h3>
+                        <p>Silnoproud, slaboproud, automatizace, programovatelné automaty, robotika.</p>
+                    </div>
+                </div>
+                <div class="obor-card">
+                    <img src="images/energetika.jpg" alt="telek">
+                    <div class="obor-content">
+                        <h3>26-45-M/01 Telekomunikace – informační a komunikační technologie</h3>
+                        <p>vjec</p>
+                    </div>
+                </div>
+                <div class="obor-card">
+                    <img src="images/energetika.jpg" alt="provelt">
+                    <div class="obor-content">
+                        <h3>26-41-L/52 Provozní elektrotechnika – denní studium</h3>
+                        <p>vjec</p>
+                    </div>
+                </div>
+                <div class="obor-card">
+                    <img src="images/energetika.jpg" alt="provt">
+                    <div class="obor-content">
+                        <h3>23-43-L/51 Provozní technika</h3>
+                        <p>vjec</p>
+                    </div>
+                </div>
+                <div class="obor-card">
+                    <img src="images/energetika.jpg" alt="mechiez">
+                    <div class="obor-content">
+                        <h3>39-41-L/02 Mechanik instalatérských a elektrotechnických zařízení</h3>
+                        <p>vjec</p>
+                    </div>
+                </div>
+                <div class="obor-card">
+                    <img src="images/it.jpg" alt="IT">
+                    <div class="obor-content">
+                        <h3>18-20-M/01 Informační technologie</h3>
+                        <p>Počítačové sítě, kyberbezpečnost, programování, správa serverů.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    </main>
-    <footer>
-        
+    <section id="proč-my">
+        <div class="container">
+            <h2 class="section-title">Proč studovat u nás?</h2>
+            <p>Střední odborné učiliště elektrotechnické poskytuje střední vzdělání v oborech s maturitní zkouškou se zaměřením na elektrotechnická, elektronická, silnoproudá a instalatérská zařízení, informační technologie a telekomunikaci. Současně škola nabízí vzdělávání v oborech s výučním listem se zaměřením na slaboproudou a silnoproudou elektrotechniku. Všechny výše uvedené obory lze studovat v denní formě vzdělávání, nástavbové maturitní studium a zkrácené studium učebního oboru elektrikář také v dálkové formě.
+                <br>
+                Dále škola pořádá pro organizace a širokou veřejnost odborné kurzy a školení. SOUE zavádí moderní technologie a postupy do výuky, spolupracuje s významnými zaměstnavateli v regionu, realizuje řadu systémových, pilotních i jiných projektů.
+                <br>
+                Pro své žáky organizuje SOUE odborné, jazykové a sportovní soutěže a odborné stáže. Škola se pravidelně zapojuje i do mezinárodních projektů především v programu Erasmus +.</p>
+            <br>
+            <div class="features">
+                <div class="feature">
+                    <i class="fas fa-tools"></i>
+                    <h3>Špičkové dílny a laboratoře</h3>
+                    <p>Nové učebny s PLC Siemens, Cisco Academy, robotické linky.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-briefcase"></i>
+                    <h3>Praxe u firem</h3>
+                    <p>Škoda Electric, Doosan, Plzeňský Prazdroj, Infineon, ZF a desítky dalších.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Vysoká uplatnitelnost</h3>
+                    <p>Více než 95 % absolventů najde práci do 3 měsíců po maturitě.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="kontakt">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <div class="footer-logo">
+                        <img src="sources/soue.png" alt="SOUEPL">
+                    </div>
+                    <p>Střední odborné učiliště elektrotechnické Plzeň, příspěvková organizace</p>
+                </div>
+                <div>
+                    <h4>Kontakty</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Klatovská třída 1689/108, 301 00 Plzeň</p>
+                    <p><i class="fas fa-phone"></i> +420 377 421 812</p>
+                    <p><i class="fas fa-envelope"></i> info@souepl.cz</p>
+                </div>
+                <div>
+                    <h4>Rychlé odkazy</h4>
+                    <ul>
+                        <li><a href="https://www.souepl.cz" style="color: #aaa;">Staré stránky školy</a></li>
+                        <li><a href="https://bakalari.souepl.cz" style="color: #aaa;">Bakaláři</a></li>
+                        <li><a href="#" style="color: #aaa;">Přihláška ke studiu</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr style="border-color: #444; margin: 40px 0;">
+            <p style="text-align: center; color: #888;">© 2025 SOU Elektrotechnické Plzeň – Všechna práva vyhrazena</p>
+        </div>
     </footer>
 </body>
 </html>
