@@ -8,111 +8,181 @@
     <link rel="stylesheet" href="/style/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="/script/script.js" defer></script>
 </head>
 <body>
 
     <nav id="navbar">
         <div class="container nav-container">
             <div class="logo">
-                <img src="sources/soue.png" alt="SOUEPL Plzeň">
+                <img src="images/soue.png" alt="SOUEPL Plzeň">
             </div>
             <ul class="nav-menu">
                 <li><a href="#home">Domů</a></li>
                 <li><a href="#obory">Obory</a></li>
-                <li><a href="#proč-my">Proč my</a></li>
+                <li><a href="#dotazy">Časté dotazy</a></li>
                 <li><a href="#kontakt">Kontakt</a></li>
-                <li><a href="https://www.bakalari.cz" target="_blank">Bakaláři</a></li>
+                <li><a href="https://souepl.bakalari.cz/timetable/public" target="_blank">Bakaláři</a></li>
             </ul>
-            <div class="hamburger">
-                <i class="fas fa-bars"></i>
-            </div>
         </div>
     </nav>
 
     <header id="home">
         <div class="container hero-text">
             <h1>Střední odborné učiliště<br>elektrotechnické Plzeň</h1>
-            <p>Moderní vzdělávání v elektrotechnice, automatizaci a IT s praxí u špičkových firem v Plzeňském kraji.</p>
             <a href="#obory" class="btn">Zobrazit obory vzdělávání</a>
         </div>
     </header>
-    <section id="obory" class="bg-light">
-        <div class="container">
-            <h2 class="section-title">Naše obory vzdělávání</h2>
-            <div class="obory-grid">
-                <div class="obor-card">
-                    <img src="images/elektrotechnika.jpg" alt="Elektrotechnika">
-                    <div class="obor-content">
-                        <h3>26-41-L/01 Mechanik elektrotechnik</h3>
-                        <p>Silnoproud, slaboproud, automatizace, programovatelné automaty, robotika.</p>
-                    </div>
-                </div>
-                <div class="obor-card">
-                    <img src="images/energetika.jpg" alt="telek">
-                    <div class="obor-content">
-                        <h3>26-45-M/01 Telekomunikace – informační a komunikační technologie</h3>
-                        <p>vjec</p>
-                    </div>
-                </div>
-                <div class="obor-card">
-                    <img src="images/energetika.jpg" alt="provelt">
-                    <div class="obor-content">
-                        <h3>26-41-L/52 Provozní elektrotechnika – denní studium</h3>
-                        <p>vjec</p>
-                    </div>
-                </div>
-                <div class="obor-card">
-                    <img src="images/energetika.jpg" alt="provt">
-                    <div class="obor-content">
-                        <h3>23-43-L/51 Provozní technika</h3>
-                        <p>vjec</p>
-                    </div>
-                </div>
-                <div class="obor-card">
-                    <img src="images/energetika.jpg" alt="mechiez">
-                    <div class="obor-content">
-                        <h3>39-41-L/02 Mechanik instalatérských a elektrotechnických zařízení</h3>
-                        <p>vjec</p>
-                    </div>
-                </div>
-                <div class="obor-card">
-                    <img src="images/it.jpg" alt="IT">
-                    <div class="obor-content">
-                        <h3>18-20-M/01 Informační technologie</h3>
-                        <p>Počítačové sítě, kyberbezpečnost, programování, správa serverů.</p>
-                    </div>
-                </div>
+    <br id="obory">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <h2 class="section-title" >Studijní obory (ano, skutečně existují)</h2>
+
+        <!-- VYUČNÍ LIST -->
+        <div class="accordion-item">
+            <button class="accordion-header">
+                Střední vzdělání s výučním listem
+            </button>
+            <div class="accordion-content">
+                <table class="obory-table">
+                    <thead>
+                        <tr>
+                            <th>Obor (ŠVP)</th>
+                            <th>Školní rok</th>
+                            <th>Délka / Forma studia</th>
+                            <th>Přijmou / Přihl. / Min. rok</th>
+                            <th>Přijímací zkoušky</th>
+                            <th>PLP</th>
+                            <th>OZP</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>26-51-H/01 Elektrikář</td>
+                            <td>2026–27</td>
+                            <td>3 roky / denní</td>
+                            <td>30 / 169 / 30</td>
+                            <td>—</td>
+                            <td>✔</td>
+                            <td>✖</td>
+                        </tr>
+                        <tr>
+                            <td>26-51-H/02 Elektrikář – silnoproud</td>
+                            <td>2026–27</td>
+                            <td>3 roky / denní</td>
+                            <td>60 / 201 / 60</td>
+                            <td>—</td>
+                            <td>✔</td>
+                            <td>✖</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
+        </div>
+
+        <!-- MATURITA -->
+        <div class="accordion-item">
+            <button class="accordion-header">
+                Střední vzdělání s maturitou
+            </button>
+            <div class="accordion-content">
+                <table class="obory-table">
+                    <thead>
+                        <tr>
+                            <th>Obor (ŠVP)</th>
+                            <th>Školní rok</th>
+                            <th>Délka / Forma studia</th>
+                            <th>Přijmou / Přihl. / Min. rok</th>
+                            <th>Přijímací zkoušky</th>
+                            <th>PLP</th>
+                            <th>OZP</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>18-20-M/01 Informační technologie</td>
+                            <td>2026–27</td>
+                            <td>4 roky / denní</td>
+                            <td>60 / 115 / 30</td>
+                            <td>ČJ, M</td>
+                            <td>✖</td>
+                            <td>✔</td>
+                        </tr>
+                        <tr>
+                            <td>26-41-L/01 Mechanik elektrotechnik</td>
+                            <td>2026–27</td>
+                            <td>4 roky / denní</td>
+                            <td>30 / 103 / 30</td>
+                            <td>ČJ, M</td>
+                            <td>✔</td>
+                            <td>✖</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- NÁSTAVBA -->
+        <div class="accordion-item">
+            <button class="accordion-header">
+                Nástavbové studium
+            </button>
+            <div class="accordion-content">
+                <table class="obory-table">
+                    <thead>
+                        <tr>
+                            <th>Obor (ŠVP)</th>
+                            <th>Školní rok</th>
+                            <th>Délka / Forma studia</th>
+                            <th>Přijmou / Přihl. / Min. rok</th>
+                            <th>Přijímací zkoušky</th>
+                            <th>PLP</th>
+                            <th>OZP</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>26-41-L/52 Provozní elektrotechnika</td>
+                            <td>2026–27</td>
+                            <td>2 roky / denní</td>
+                            <td>30 / 63 / 30</td>
+                            <td>ČJ, M</td>
+                            <td>✔</td>
+                            <td>✔</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+    <br id="dotazy">
+    <br>
+    <br>
+    <br>
+    <section>
+        <div class="container">
+            <h2 class="section-title">Časté dotazy</h2>
+            
+            <div class="faq-item">
+                <h3 class="faq-question">Je studium náročné?</h3>
+                <p class="faq-answer">Hlavně psychicky</p>
+                <h3 class="faq-question">Je vybavení moderní?</h3>
+                <p class="faq-answer">Většinou </p><p class="ne">ne.</p>
+                <h3 class="faq-question">Najdu po škole práci?</h3>
+                <p class="faq-answer">Zajisté. Otázkou zůstává jakou.</p>
+                <h3 class="faq-question">Budu mít čas na život?</h3>
+                <p class="faq-answer">Definuj „život“.</p>
         </div>
     </section>
 
-    <section id="proč-my">
-        <div class="container">
-            <h2 class="section-title">Proč studovat u nás?</h2>
-            <p>Střední odborné učiliště elektrotechnické poskytuje střední vzdělání v oborech s maturitní zkouškou se zaměřením na elektrotechnická, elektronická, silnoproudá a instalatérská zařízení, informační technologie a telekomunikaci. Současně škola nabízí vzdělávání v oborech s výučním listem se zaměřením na slaboproudou a silnoproudou elektrotechniku. Všechny výše uvedené obory lze studovat v denní formě vzdělávání, nástavbové maturitní studium a zkrácené studium učebního oboru elektrikář také v dálkové formě.
-                <br>
-                Dále škola pořádá pro organizace a širokou veřejnost odborné kurzy a školení. SOUE zavádí moderní technologie a postupy do výuky, spolupracuje s významnými zaměstnavateli v regionu, realizuje řadu systémových, pilotních i jiných projektů.
-                <br>
-                Pro své žáky organizuje SOUE odborné, jazykové a sportovní soutěže a odborné stáže. Škola se pravidelně zapojuje i do mezinárodních projektů především v programu Erasmus +.</p>
-            <br>
-            <div class="features">
-                <div class="feature">
-                    <i class="fas fa-tools"></i>
-                    <h3>Špičkové dílny a laboratoře</h3>
-                    <p>Nové učebny s PLC Siemens, Cisco Academy, robotické linky.</p>
-                </div>
-                <div class="feature">
-                    <i class="fas fa-briefcase"></i>
-                    <h3>Praxe u firem</h3>
-                    <p>Škoda Electric, Doosan, Plzeňský Prazdroj, Infineon, ZF a desítky dalších.</p>
-                </div>
-                <div class="feature">
-                    <i class="fas fa-graduation-cap"></i>
-                    <h3>Vysoká uplatnitelnost</h3>
-                    <p>Více než 95 % absolventů najde práci do 3 měsíců po maturitě.</p>
-                </div>
-            </div>
-        </div>
+    <section id="pedagogove">
+        <h2 class="section-title"><a class="pedagogicky-sbor-a" href="/stranky/ucitele.html">Pedagogický sbor</a></h2>
     </section>
 
     <footer id="kontakt">
@@ -120,7 +190,7 @@
             <div class="footer-grid">
                 <div>
                     <div class="footer-logo">
-                        <img src="sources/soue.png" alt="SOUEPL">
+                        <img src="images/soue.png" alt="SOUEPL">
                     </div>
                     <p>Střední odborné učiliště elektrotechnické Plzeň, příspěvková organizace</p>
                 </div>

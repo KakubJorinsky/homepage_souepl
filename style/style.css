@@ -151,3 +151,88 @@ footer {
     .nav-menu.active { display: flex; }
     .hamburger { display: block; cursor: pointer; }
 }
+
+.accordion-item {
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+}
+
+.accordion-header {
+    width: 100%;
+    padding: 1rem;
+    background: #b30000;
+    color: #fff;
+    font-size: 1.1rem;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+}
+
+.accordion-header:hover {
+    background: #8f0000;
+}
+
+.accordion-content {
+    display: none;
+    padding: 1rem;
+    background: #fff;
+}
+
+.obory-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.obory-table th,
+.obory-table td {
+    border: 1px solid #ddd;
+    padding: 0.6rem;
+    text-align: center;
+}
+
+.obory-table th {
+    background: #f0f0f0;
+}
+
+.ne{
+    color: white;
+}
+
+.pedagogicky-sbor-a {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+.teachers-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 1.5rem;
+}
+
+.teacher-card.compact {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.teacher-text {
+    flex: 1;
+}
+.teacher-text-kovarik {
+    flex: 1;
+}
+.teacher-text-kovarik img {
+    width: 508px;
+    height: auto;
+    border: 2px solid #ccc;
+}
+
+.teacher-photo img {
+    width: 138px;
+    height: auto;
+}

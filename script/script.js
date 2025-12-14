@@ -2,7 +2,11 @@ window.addEventListener('scroll', () => {
     document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 100);
 });
 
-// Hamburger menu
-document.querySelector('.hamburger').addEventListener('click', () => {
-    document.querySelector('.nav-menu').classList.toggle('active');
+document.querySelectorAll('.accordion-header').forEach(button => {
+    button.addEventListener('click', () => {
+        const content = button.nextElementSibling;
+        content.style.display = content.style.display === 'block'
+            ? 'none'
+            : 'block';
+    });
 });
